@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /images/private/
+Disallow: /images/admin/
+Disallow: /scripts/
+Disallow: /styles/
+
+User-agent: Googlebot
+Allow: /public/
+Allow: /images/public/
