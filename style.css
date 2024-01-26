@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+* {
+    font-family: 'Poor Story', system-ui;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #606c38;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.containerHorse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sprite {
+    width: 183px;
+    height: 122px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/5973/muybridge_horse.jpg);
+    animation: run .6s steps(15) infinite;
+}
+
+@keyframes run {
+    100% {
+        background-position: -2573px 0;
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+.Nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #606c38;
+    width: 100%;
+}
+
+nav ul li {
+float: left;
+}
+
+nav ul li a {
+display: block;
+color: #fff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 1.3em;
+}
+
+a:hover {
+color: #e76f51;
+}
+
+.IMG {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#cso {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 24em;
+    z-index: 1;
+    margin-left: 4%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.ImgCso {
+    z-index: 0;
+    margin-top: 5%;
+    z-index: 0;
+    position: absolute;
+    right: 7%;
+    width: 40%;
+}
+
+.Img_cso {
+    z-index: 0;
+    margin-top: 5%;
+    z-index: 0;
+    position: absolute;
+    right: 3%;
+    width: 40%;
+    top: 115%;
+}
+.Img-Cso {
+    z-index: 0;
+    margin-top: 5%;
+    z-index: 0;
+    position: absolute;
+    right: 6%;
+    width: 40%;
+    top: 300%;
+}
+.Imgcso {
+    z-index: 0;
+    margin-top: 5%;
+    z-index: 0;
+    position: absolute;
+    right: 6%;
+    width: 40%;
+    top: 385%;
+}
+
+
+
